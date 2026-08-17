@@ -13,7 +13,7 @@ st.set_page_config(
 # ========== API ===========
 API_KEY = st.secrets["API_KEY"]
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.1-8b-instant"
+MODEL = "openai/gpt-oss-20b"
 
 #========== CHAT HISTORY ===========
 if "messages" not in st.session_state:
