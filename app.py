@@ -176,7 +176,7 @@ def get_response(prompt):
         messages = [
             {
                 "role": "system",
-                "content": "You are a helpful assistant."
+                "content": "You are a helpful assistant.Give clear, short, direct ,concise answers unless the user asks for more detail. "
             },
             *st.session_state.messages,
             {
